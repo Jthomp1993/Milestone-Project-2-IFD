@@ -33,3 +33,26 @@
 .hero-image img {
     width: 100vw;   
 }
+
+/*------------------------------ Bio section  */
+
+.card {
+    background-color: #323232;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.card-title {
+    font-family: "raleway", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.card-text {
+    font-family: "raleway", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 1px;
+}
+
