@@ -86,14 +86,14 @@
     border-top: 2px solid #002D47;
     margin-top: 1px;
     margin-left: 5px;
-    width: 90vw;
+    width: 80vw;
 }
 
 .news-section img {
     width: 280px;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    box-shadow: 10px 20px 30px rgb(141, 141, 141);
+    box-shadow: 10px 20px 40px rgb(141, 141, 141);
 }
 
 .tourist-news div {
@@ -118,6 +118,7 @@
 
 .tourist-news a {
     width: 280px;
+    color: #002D47;
 }
 
 @media (min-width: 1200px) {
