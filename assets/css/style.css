@@ -158,3 +158,24 @@
     float: right;  
 }
 
+/*------------------------------ Footer section  */
+
+.tourist-footer {
+    background-color: #545454;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.back-to-top-button a {
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
