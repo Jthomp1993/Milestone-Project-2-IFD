@@ -128,6 +128,32 @@
     color: #002D47;
 }
 
+/*------------------------------ News section  */
 
 
+.tour-section h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    
+}
+
+.dates-wrapper {
+    background-color: #323232;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tour-section-divider {
+    border-top: 2px solid #ffffff;
+}
+
+.tour-container {
+    margin-top: 2rem;
+}
+
+.on-sale-button h3 {
+    float: right;  
+}
 
