@@ -229,21 +229,29 @@
 .music-wrapper div {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .music-catalogue img {
     width: 200px;
     box-shadow: 10px 10px 20px #808080;
+    margin-bottom: 1rem;
 }
 
-.music-catalogue {
-    
+@media (max-width: 575.98px) {
+    .music-catalogue img {
+    width: 120px;
+    box-shadow: 10px 10px 20px #808080;
+    margin-bottom: 1rem;
 }
+ }
 
 .music-catalogue h3 {
     font-family: "raleway", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #002D47;
     text-align: center;
     margin-top: 1rem;
-}
+} 
