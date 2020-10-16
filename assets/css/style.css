@@ -223,3 +223,27 @@
     color: #ffffff;
     
 }
+
+/*------------------------------ Music section  */
+
+.music-wrapper div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.music-catalogue img {
+    width: 200px;
+    box-shadow: 10px 10px 20px #808080;
+}
+
+.music-catalogue {
+    
+}
+
+.music-catalogue h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 16px;
+    color: #002D47;
+    text-align: center;
+    margin-top: 1rem;
+}
