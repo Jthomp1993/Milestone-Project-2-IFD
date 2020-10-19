@@ -255,3 +255,49 @@
     text-align: center;
     margin-top: 1rem;
 } 
+
+/*------------------------------ Live section  */
+
+.live-hero-wrapper {
+    height: 100vh;
+    background-color: #D3D3D3;
+    margin-bottom: 2rem;
+}
+
+.live-hero-typography h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: #002D47;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.live-tour-image img {
+    width: 350px;
+    float: right;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .live-hero-typography h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    color: #002D47;
+    margin-top: 2rem;
+    padding-left: 2rem;
+ }
+    .live-tour-image img {
+    width: 200px;
+    float: right;
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+    .live-hero-wrapper {
+    height: 50vh;
+    background-color: #D3D3D3;
+    margin-bottom: 2rem;
+}
+} 
