@@ -301,3 +301,50 @@
     margin-bottom: 2rem;
 }
 } 
+
+.live-event-table  {
+    background-color: #323232;
+    height: 20rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.event-table-info {
+    height: 18rem;
+}
+
+.event-table-info h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.event-table-info h2 {
+    font-family: "raleway", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.event-table-info h4 {
+    font-family: "raleway", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 6rem;
+}
+
+.event-table-info a {
+    color: #ffffff;
+}
+
+.maps-api {
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    float: right;
+    margin-right: 1rem;
+}
