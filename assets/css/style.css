@@ -390,3 +390,35 @@
     color: #002D47;
     margin-top: 1rem;
 }
+
+.contact-form {
+    background-color: #323232;
+    width: 80vw;
+    height: 35rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-form p {
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.form-control {
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+#message-input {
+    height: 15rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    float: right;
+    border-radius: 20px;
+   
+}
