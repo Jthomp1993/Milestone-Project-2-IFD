@@ -449,3 +449,35 @@
   }
 }
 
+/*------------------------------ Quiz section  */
+
+.quiz-section {
+    height: 100vh;
+}
+
+.quiz-table {
+    height: 30rem;
+    width: 80vw;
+    background-color: #323232;
+    margin-top: 4rem;
+}
+
+.quiz-heading h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.quiz-question h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.quiz-answers p {
+    width: 300px;
+}
+
