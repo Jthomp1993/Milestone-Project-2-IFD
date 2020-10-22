@@ -395,8 +395,8 @@
     background-color: #323232;
     width: 80vw;
     height: 35rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
 }
@@ -422,3 +422,30 @@
     border-radius: 20px;
    
 }
+
+@media (max-width: 767.98px) {
+    .contact-form p {
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+  }
+    .contact-form {
+    background-color: #323232;
+    width: 100vw;
+    height: 35rem;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+    .contact-heading h2 {
+    font-family: "raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #002D47;
+    margin-top: 1rem;
+  }
+}
+
