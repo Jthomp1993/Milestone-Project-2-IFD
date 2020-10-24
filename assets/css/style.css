@@ -451,20 +451,15 @@
 
 /*------------------------------ Quiz section  */
 
-.quiz-section {
-    height: 100vh;
-}
-
 .quiz-table {
     height: 30rem;
-    width: 80vw;
     background-color: #323232;
-    margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 
 .quiz-heading h3 {
     font-family: "raleway", sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 800;
     color: #ffffff;
     padding-top: 5px;
@@ -476,6 +471,7 @@
     color: #ffffff;
     margin-top: 2rem;
     margin-block-end: 2rem;
+    text-align: center;
 }
 
 .quiz-answers p {
@@ -486,5 +482,37 @@
 
 .quiz-answers p:hover {
     background-color: #76B966;
+}
+
+@media (min-width: 768px) {
+    .quiz-heading h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 5px;
+  }
+    .quiz-table {
+    height: 30rem;
+    background-color: #323232;
+    margin-top: 8rem;
+}
+}
+
+@media (min-width: 768px) {
+    .quiz-table {
+    height: 30rem;
+    background-color: #323232;
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+    .quiz-table {
+    height: 30rem;
+    width: 80vw;
+    background-color: #323232;
+    margin-top: 4rem;
+  }
 }
 
