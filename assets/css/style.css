@@ -483,7 +483,7 @@
 
 .results-answer h3 {
     font-family: "raleway", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     color: #ffffff;
     margin-top: 2rem;
@@ -542,6 +542,18 @@
     width: 80vw;
     background-color: #323232;
     margin-top: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+    .results-answer h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-block-end: 2rem;
+    text-align: center;
   }
 }
 
