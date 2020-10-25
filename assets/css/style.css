@@ -506,11 +506,19 @@
 }
 
 .quiz-answers p:hover {
-    background-color: #76B966;
+    background-color: rgb(190, 190, 190);
 }
 
 .submit-button p:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.btn-correct {
     background-color: #76B966;
+}
+
+.btn-incorrect {
+    background-color: #CE5D5D;
 }
 
 @media (min-width: 768px) {
