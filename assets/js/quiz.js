@@ -1,4 +1,4 @@
-var results = 0;
+var score = 0;
 
 $(document).ready(function() {
  
@@ -10,16 +10,24 @@ $(document).ready(function() {
     }
 });
 
+    $('.answers-btn').click(function() {
+        if($(this).hasClass('true')) {
+            score ++;
+        }
+    });
 
-
-
-
-
-
-
-
-
-
+    $('.submit-button').click(function() {
+        $('#total-score').text('You scored ' + score + ' out of 5')
+        if (score === 5) {
+            $('#result-text').text('You must be a big fan of Tourist');
+        }
+        else if (score >= 3) {
+            $('#result-text').text('Good effort');
+        }
+        else if (score < 3 && score >= 3) {
+            $('#result-text').text('Better luck next time');
+        }
+    });
 
 
 });
