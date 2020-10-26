@@ -10,6 +10,12 @@ $(document).ready(function() {
     }
 });
 
+    $('.submit-btn').click(function() {
+        if ($(this).hasClass('true')) {
+            $(this).addClass('btn-correct');
+        }
+    });
+
     $('.answers-btn').click(function() {
         if($(this).hasClass('true')) {
             score ++;
