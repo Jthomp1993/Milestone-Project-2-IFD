@@ -30,7 +30,7 @@ $(document).ready(function() {
         else if (score >= 3) {
             $('#result-text').text('Good effort');
         }
-        else if (score < 3 && score >= 3) {
+        else if (score < 3) {
             $('#result-text').text('Better luck next time');
         }
     });
