@@ -22,6 +22,15 @@ $(document).ready(function() {
         }
     });
 
+    $('.refresh-button').click(function() {
+        location.reload();
+        location = location.href
+    });
+
+    $('.submit-button').click(function() {
+        $('.hide-element').show();
+    });
+
     $('.submit-button').click(function() {
         $('#total-score').text('You scored ' + score + ' out of 5')
         if (score === 5) {

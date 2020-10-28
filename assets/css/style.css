@@ -493,6 +493,13 @@
     border: none;
 }
 
+.refresh-button p {
+    width: 300px;
+    margin-top: 4rem;
+    border: none;
+    float: none;
+}
+
 .quiz-answers p:hover {
     background-color: rgb(190, 190, 190);
 }
@@ -501,12 +508,21 @@
     background-color: rgb(190, 190, 190);
 }
 
+.refresh-button p:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+
 .btn-correct {
     background-color: #76B966;
 }
 
 .btn-incorrect {
     background-color: #CE5D5D;
+}
+
+.hide-element {
+    display: none;
 }
 
 @media (min-width: 768px) {
