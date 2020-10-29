@@ -316,13 +316,14 @@
 }
 
 @media (max-width: 767.98px) {
-    .maps-api {
-    width: 130px;
-    height: 130px;
+  .maps-api {
+    width: 150px;
+    height: 150px;
     background-color: #ffffff;
     float: right;
     margin-right: 2px;
  }
+
     .event-table-info h3 {
     font-family: "raleway", sans-serif;
     font-size: 18px;
