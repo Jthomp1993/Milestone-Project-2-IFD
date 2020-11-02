@@ -584,3 +584,52 @@
   }
 }
 
+/* --------------------------- Music-info section */
+
+
+.music-info-heading h2 {
+font-family: "raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 2rem;
+    padding-left: 6rem;
+}
+
+.tourist-tracklist {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.tourist-tracklist h3 {
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 6rem;
+    margin-top: 1rem;
+
+}
+
+.music-artwork img {
+    width: 350px;
+    float: right;
+    margin-bottom: 7rem;
+    margin-right: 4rem;
+    
+}
+
+#music-table {
+    height: 37rem;
+}
+
+.music-info-section div {
+    height: 15rem;
+}
+
+.music-info-btn {
+    font-family: "raleway", sans-serif;
+    padding-right: 5rem;
+    margin-top: 2rem;
+}
+
