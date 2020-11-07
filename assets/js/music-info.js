@@ -1,3 +1,4 @@
+// Objects which contain the data for all music which is stored in variable musicData
 var musicData = [
     {
     "albumName": "Wild",
