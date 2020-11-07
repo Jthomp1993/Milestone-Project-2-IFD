@@ -6,16 +6,19 @@ const mylatLng3 = { lat: 51.5235754, lng: -0.0806693};
 
 function initMap() {
   
+    // Renders the map location for Gorilla, Manchester
   var map = new google.maps.Map(document.getElementById("maps-api-1"), {
     zoom: 15,
     center: mylatLng1,
   });
+  // Creates marker which will display location of venue 
   new google.maps.Marker({
     position: mylatLng1,
     map,
     title: "A",
   });
-
+  
+  // Renders the map location for Brudenell Community Rooms, Leeds
   var map = new google.maps.Map(document.getElementById("maps-api-2"), {
     zoom: 15,
     center: mylatLng2,
@@ -25,7 +28,8 @@ function initMap() {
     map,
     title: "A",
   });
-
+  
+  // Renders the map location for Village Underground, London
   var map = new google.maps.Map(document.getElementById("maps-api-3"), {
     zoom: 15,
     center: mylatLng3,
@@ -35,7 +39,8 @@ function initMap() {
     map,
     title: "A",
   });
-
+  
+  // Renders the map location for Village Underground, London
   var map = new google.maps.Map(document.getElementById("maps-api-4"), {
     zoom: 15,
     center: mylatLng3,
@@ -47,3 +52,8 @@ function initMap() {
   });
 }
 
+/* Sources used to create this code 
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+https://developers.google.com/maps/documentation/javascript/markers
+https://github.com/mkthewlis/Milestone-Project-2
+*/
