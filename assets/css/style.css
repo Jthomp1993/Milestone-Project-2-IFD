@@ -291,6 +291,7 @@
     margin-bottom: 2rem;
     padding-left: 1rem;
     padding-top: 1rem;
+    
 }
 
 .event-table-info {
@@ -428,7 +429,14 @@
     margin-top: 1rem;
     float: right;
     border-radius: 20px;
+    width: 6rem;
+    font-family: "raleway", sans-serif;
    
+}
+
+.btn button:hover {
+    background-color: #38c1e4;
+    color: #ffffff;
 }
 
 @media (max-width: 767.98px) {
