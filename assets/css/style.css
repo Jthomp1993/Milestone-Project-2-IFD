@@ -439,6 +439,10 @@
     color: #ffffff;
 }
 
+#contact-form textarea {
+    resize: none;
+}
+
 @media (max-width: 767.98px) {
     .contact-form p {
     font-family: "raleway", sans-serif;
