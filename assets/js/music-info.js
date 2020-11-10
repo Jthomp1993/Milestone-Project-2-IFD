@@ -49,10 +49,10 @@ var musicData = [
 
 
 document.getElementById("wild").addEventListener("click", () => {
-    getWild("wild", "assets/images/music-artwork/wild.png");
+    getWild("wild", "assets/images/music-artwork/wild.png", ["And So, You Were!", "Elixir", "Bunny", "So", "Fiction", "Still Life", "Wild", "11.12", "Kin", "Together At The Centre Of Creation"]);
 })
 
-function getWild(albumName, albumImage) {
+function getWild(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
