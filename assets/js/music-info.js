@@ -52,3 +52,10 @@ document.getElementById("wild").addEventListener("click", () => {
     getWild("wild");
 })
 
+function getWild(albumName) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+    })
+}
