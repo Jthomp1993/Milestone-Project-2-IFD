@@ -49,13 +49,16 @@ var musicData = [
 
 
 document.getElementById("wild").addEventListener("click", () => {
-    getWild("wild");
+    getWild("wild", "assets/images/music-artwork/wild.png");
 })
 
-function getWild(albumName) {
+function getWild(albumName, albumImage) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
         }
     })
 }
