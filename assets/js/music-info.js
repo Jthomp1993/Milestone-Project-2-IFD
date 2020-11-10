@@ -46,3 +46,9 @@ var musicData = [
     "tracklist": ["Placid Acid", "Forgive", "Jupiter", "Fires"]
     },
 ]
+
+
+document.getElementById("wild").addEventListener("click", () => {
+    getWild("wild");
+})
+
