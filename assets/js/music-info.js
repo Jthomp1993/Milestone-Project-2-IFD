@@ -47,6 +47,9 @@ var musicData = [
     },
 ]
 
+$('.music-btn').click(function() {
+        $('.hide-element').show();
+    });
 
 document.getElementById("wild").addEventListener("click", () => {
     getWild("wild", "assets/images/music-artwork/wild.png", ["And So, You Were!", "Elixir", "Bunny", "So", "Fiction", "Still Life", "Wild", "11.12", "Kin", "Together At The Centre Of Creation"]);
@@ -59,8 +62,7 @@ function getWild(albumName, albumImage, tracklist) {
         }
         if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
             document.getElementById("album-image").setAttribute('src', value["albumImage"]);
-        }
-        
+        } 
     })
         var trackList = document.getElementById("tracklist-parent"),
         h3 = document.createElement('h3'),
