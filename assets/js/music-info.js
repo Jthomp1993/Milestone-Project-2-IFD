@@ -3,56 +3,58 @@ var musicData = [
     {
     "albumName": "Wild",
     "albumImage": "assets/images/music-artwork/wild.png",
-    "tracklist": ["And So, You Were!", "Elixir", "Bunny", "So", "Fiction", "Still Life", "Wild", "11.12", "Kin", "Together At The Centre Of Creation"]
+    "tracklist": ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]
     },
     {
     "albumName": "Everyday",
     "albumImage": "assets/images/music-artwork/everyday.png",
-    "tracklist": ["Awake", "Emily", "Someone Else", "Love Theme", "Pieces", "Gin Under The Sink", "Apollo", "Hearts", "Violet", "Affection"]
+    "tracklist": ["01. Awake", "02. Emily", "03. Someone Else", "04. Love Theme", "05. Pieces", "06. Gin Under The Sink", "07. Apollo", "08. Hearts", "09. Violet", "10. Affection"]
     },
     {
     "albumName": "U",
     "albumImage":  "assets/images/music-artwork/u.png",
-    "tracklist": ["U", "To Have You Back", "Run", "Wait", "My Love (Interlude)", "Waves", "Too Late", "Foolish", "Seperate Ways", "For Sarah"]
+    "tracklist": ["01. U", "02. To Have You Back", "03. Run", "04. Wait", "05. My Love (Interlude)", "06. Waves", "07. Too Late", "08. Foolish", "09. Seperate Ways", "10. For Sarah"]
     },
     {
     "albumName": "Last",
     "albumImage": "assets/images/music-artwork/last.png",
-    "tracklist": ["Last (The Range)"]
+    "tracklist": ["01. Last (The Range)"]
     },
     {
     "albumName": "Wash",
     "albumImage": "assets/images/music-artwork/wash.png",
-    "tracklist": ["We Stayed Up All Night", "Apart", "Sleepwalking", "Hush"]
+    "tracklist": ["01. We Stayed Up All Night", "02. Apart", "03. Sleepwalking", "04. Hush"]
     },
     {
     "albumName": "Holding On",
     "albumImage": "assets/images/music-artwork/holding-on.png",
-    "tracklist": ["Holding On (Josef Salvat, Niia)"]
+    "tracklist": ["01. Holding On (Josef Salvat, Niia)"]
     },
     {
     "albumName": "Patterns",
     "albumImage": "assets/images/music-artwork/patterns.png",
-    "tracklist": ["Trust In You", "Patterns (Lianne La Havas)", "Together", "I can't Keep Up (Will Heard)", "I can't Keep Up - Dub Remix (Will Heard)"]
+    "tracklist": ["01. Trust In You", "02. Patterns (Lianne La Havas)", "03. Together", "04. I can't Keep Up (Will Heard)", "05. I can't Keep Up - Dub Remix (Will Heard)"]
     },
     {
     "albumName": "Tonight",
     "albumImage": "assets/images/music-artwork/tonight.png",
-    "tracklist": ["Tonight", "I Have No Fear", "Never Stop", "Heartbeats"]
+    "tracklist": ["01. Tonight", "02. I Have No Fear", "03. Never Stop", "04. Heartbeats"]
     },
     {
     "albumName": "Tourist",
     "albumImage": "assets/images/music-artwork/tourist.png",
-    "tracklist": ["Placid Acid", "Forgive", "Jupiter", "Fires"]
+    "tracklist": ["01. Placid Acid", "02. Forgive", "03. Jupiter", "04. Fires"]
     },
 ]
 
+// This function hides the music info section until a user clicks on an album
 $('.music-btn').click(function() {
         $('.hide-element').show();
     });
 
+    // Event listeners used for when a user clicks on an album to invoke function to append data to music info section
 document.getElementById("wild").addEventListener("click", () => {
-    getWild("wild", "assets/images/music-artwork/wild.png", ["And So, You Were!", "Elixir", "Bunny", "So", "Fiction", "Still Life", "Wild", "11.12", "Kin", "Together At The Centre Of Creation"]);
+    getWild("wild", "assets/images/music-artwork/wild.png", ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]);
 })
 
 function getWild(albumName, albumImage, tracklist) {
