@@ -77,6 +77,9 @@ $('.music-btn').click(function() {
 document.getElementById("wild").addEventListener("click", () => {
     getWild("wild", "assets/images/music-artwork/wild.png", ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]);
 })
+document.getElementById("everyday").addEventListener("click", () => {
+    getEveryday("everyday", "assets/images/music-artwork/everyday.png", ["01. Awake", "02. Emily", "03. Someone Else", "04. Love Theme", "05. Pieces", "06. Gin Under The Sink", "07. Apollo", "08. Hearts", "09. Violet", "10. Affection"]);
+})
 
 function getWild(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
@@ -97,6 +100,24 @@ function getWild(albumName, albumImage, tracklist) {
         })
 }
 
+function getEveryday(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
 
 
 
