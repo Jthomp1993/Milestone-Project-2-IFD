@@ -60,5 +60,20 @@ function getWild(albumName, albumImage, tracklist) {
         if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
             document.getElementById("album-image").setAttribute('src', value["albumImage"]);
         }
+        
     })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
 }
+
+
+// Sources of guidance used 
+// https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
+
+
