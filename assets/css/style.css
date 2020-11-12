@@ -678,6 +678,10 @@ font-family: "raleway", sans-serif;
     margin-top: 2rem;
 }
 
+.music-info-container {
+    height: 100vh;
+}
+
 @media (max-width: 1024px) {
     .music-artwork img {
     width: 250px;

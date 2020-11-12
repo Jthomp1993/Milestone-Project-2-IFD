@@ -1,3 +1,4 @@
+
 // Objects which contain the data for all music which is stored in variable musicData
 var musicData = [
     {
@@ -52,6 +53,26 @@ $('.music-btn').click(function() {
         $('.hide-element').show();
     });
 
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("music-btn").on('click', function(event) {
+
+    if (this.hash !== "#music-table") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+
     // Event listeners used for when a user clicks on an album to invoke function to append data to music info section
 document.getElementById("wild").addEventListener("click", () => {
     getWild("wild", "assets/images/music-artwork/wild.png", ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]);
@@ -77,7 +98,10 @@ function getWild(albumName, albumImage, tracklist) {
 }
 
 
+
+
 // Sources of guidance used 
 // https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
+// https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
 
 
