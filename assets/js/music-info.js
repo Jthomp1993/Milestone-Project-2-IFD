@@ -4,7 +4,8 @@ var musicData = [
     {
     "albumName": "Wild",
     "albumImage": "assets/images/music-artwork/wild.png",
-    "tracklist": ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]
+    "tracklist": ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"],
+    "buyNow": "https://music.apple.com/us/album/wild/1480919558"
     },
     {
     "albumName": "Everyday",
@@ -75,7 +76,7 @@ $('.music-btn').click(function() {
 
     // Event listeners used for when a user clicks on an album to invoke function to append data to music info section
 document.getElementById("wild").addEventListener("click", () => {
-    getWild("wild", "assets/images/music-artwork/wild.png", ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"]);
+    getWild("wild", "assets/images/music-artwork/wild.png", ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"], "https://music.apple.com/us/album/wild/1480919558");
 })
 document.getElementById("everyday").addEventListener("click", () => {
     getEveryday("everyday", "assets/images/music-artwork/everyday.png", ["01. Awake", "02. Emily", "03. Someone Else", "04. Love Theme", "05. Pieces", "06. Gin Under The Sink", "07. Apollo", "08. Hearts", "09. Violet", "10. Affection"]);
@@ -103,7 +104,7 @@ document.getElementById("tourist").addEventListener("click", () => {
 })
 
 
-function getWild(albumName, albumImage, tracklist) {
+function getWild(albumName, albumImage, tracklist, buyNow) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
@@ -111,6 +112,9 @@ function getWild(albumName, albumImage, tracklist) {
         if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
             document.getElementById("album-image").setAttribute('src', value["albumImage"]);
         } 
+        if (value["buyNow"] == buyNow) {
+           $("#buy-now").attr("href", value["buyNow"]);
+        }
     })
         var trackList = document.getElementById("tracklist-parent"),
         h3 = document.createElement('h3'),
@@ -279,6 +283,7 @@ function getTourist(albumName, albumImage, tracklist) {
 // Sources of guidance used 
 // https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
 // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+// https://stackoverflow.com/questions/17746737/how-to-append-string-to-a-href-with-jquery-or-javascript
 
 
 
