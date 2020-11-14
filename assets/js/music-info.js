@@ -89,6 +89,13 @@ document.getElementById("last").addEventListener("click", () => {
 document.getElementById("wash").addEventListener("click", () => {
     getWash("wash", "assets/images/music-artwork/wash.png", ["01. We Stayed Up All Night", "02. Apart", "03. Sleepwalking", "04. Hush"]);
 })
+document.getElementById("holding-on").addEventListener("click", () => {
+    getHoldingOn("holding on", "assets/images/music-artwork/holding-on.png", ["01. Holding On (Josef Salvat, Niia)"]);
+})
+document.getElementById("patterns").addEventListener("click", () => {
+    getPatterns("patterns", "assets/images/music-artwork/patterns.png", ["01. Trust In You", "02. Patterns (Lianne La Havas)", "03. Together", "04. I can't Keep Up (Will Heard)", "05. I can't Keep Up - Dub Remix (Will Heard)"]);
+})
+
 
 function getWild(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
@@ -167,6 +174,44 @@ function getLast(albumName, albumImage, tracklist) {
 }
 
 function getWash(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
+
+function getHoldingOn(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
+
+function getPatterns(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
