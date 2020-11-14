@@ -95,6 +95,9 @@ document.getElementById("holding-on").addEventListener("click", () => {
 document.getElementById("patterns").addEventListener("click", () => {
     getPatterns("patterns", "assets/images/music-artwork/patterns.png", ["01. Trust In You", "02. Patterns (Lianne La Havas)", "03. Together", "04. I can't Keep Up (Will Heard)", "05. I can't Keep Up - Dub Remix (Will Heard)"]);
 })
+document.getElementById("tonight").addEventListener("click", () => {
+    getTonight("tonight", "assets/images/music-artwork/tonight.png", ["01. Tonight", "02. I Have No Fear", "03. Never Stop", "04. Heartbeats"]);
+})
 
 
 function getWild(albumName, albumImage, tracklist) {
@@ -212,6 +215,25 @@ function getHoldingOn(albumName, albumImage, tracklist) {
 }
 
 function getPatterns(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
+
+function getTonight(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
