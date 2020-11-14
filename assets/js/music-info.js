@@ -98,6 +98,9 @@ document.getElementById("patterns").addEventListener("click", () => {
 document.getElementById("tonight").addEventListener("click", () => {
     getTonight("tonight", "assets/images/music-artwork/tonight.png", ["01. Tonight", "02. I Have No Fear", "03. Never Stop", "04. Heartbeats"]);
 })
+document.getElementById("tourist").addEventListener("click", () => {
+    getTourist("tourist", "assets/images/music-artwork/tourist.png", ["01. Placid Acid", "02. Forgive", "03. Jupiter", "04. Fires"]);
+})
 
 
 function getWild(albumName, albumImage, tracklist) {
@@ -234,6 +237,25 @@ function getPatterns(albumName, albumImage, tracklist) {
 }
 
 function getTonight(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
+
+function getTourist(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
         if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
             document.getElementById("album-name").innerText = value["albumName"];
