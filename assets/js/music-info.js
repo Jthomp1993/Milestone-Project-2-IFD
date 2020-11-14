@@ -86,6 +86,9 @@ document.getElementById("u").addEventListener("click", () => {
 document.getElementById("last").addEventListener("click", () => {
     getLast("last", "assets/images/music-artwork/last.png", ["01. Last (The Range)"]);
 })
+document.getElementById("wash").addEventListener("click", () => {
+    getWash("wash", "assets/images/music-artwork/wash.png", ["01. We Stayed Up All Night", "02. Apart", "03. Sleepwalking", "04. Hush"]);
+})
 
 function getWild(albumName, albumImage, tracklist) {
     musicData.forEach(function(value, index) {
@@ -163,10 +166,30 @@ function getLast(albumName, albumImage, tracklist) {
         })
 }
 
+function getWash(albumName, albumImage, tracklist) {
+    musicData.forEach(function(value, index) {
+        if (value["albumName"].toLowerCase() == albumName.toLowerCase()) {
+            document.getElementById("album-name").innerText = value["albumName"];
+        }
+        if (value["albumImage"].toLowerCase() == albumImage.toLowerCase()) {
+            document.getElementById("album-image").setAttribute('src', value["albumImage"]);
+        } 
+    })
+        var trackList = document.getElementById("tracklist-parent"),
+        h3 = document.createElement('h3'),
+        clone;
+        tracklist.forEach(function (value, index) {
+            clone = h3.cloneNode();
+            clone.textContent = value;
+            trackList.appendChild(clone);
+        })
+}
+
 
 
 // Sources of guidance used 
 // https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
 // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+
 
 
