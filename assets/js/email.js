@@ -6,3 +6,6 @@ window.onload = function () {
     });
 }
 
+$('#email-submit').click(function() {
+    ('#form-control').empty();
+})

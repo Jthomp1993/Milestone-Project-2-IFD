@@ -590,6 +590,10 @@
     display: none;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
 @media (min-width: 768px) {
     .quiz-heading h3 {
     font-family: "raleway", sans-serif;
