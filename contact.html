@@ -80,9 +80,29 @@
             <textarea type="email" class="form-control" id="message-input" name="message" placeholder="Message" required></textarea>
         </div>
         <div class="col-lg-10">
-            <button type="submit" class="btn btn-light">Send</button>
+            <button type="submit" id="email-submit" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Send</button>
         </div>
     </form> 
+</div>
+
+<!-- Bootstrap modal to give the user a response message when their email is sent -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email sent</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank you for getting in touch I shall get back to you as soon as I can.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!--Footer section containing social media links-->

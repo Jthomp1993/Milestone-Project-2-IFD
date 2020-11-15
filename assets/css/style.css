@@ -443,6 +443,12 @@
     resize: none;
 }
 
+.modal-body
+.modal-title {
+    font-family: "raleway", sans-serif;
+    
+}
+
 @media (max-width: 767.98px) {
     .contact-form p {
     font-family: "raleway", sans-serif;
@@ -680,6 +686,7 @@ font-family: "raleway", sans-serif;
 
 .music-info-container {
     height: 100vh;
+    
 }
 
 @media (max-width: 1024px) {

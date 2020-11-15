@@ -12,6 +12,12 @@ $(document).ready(function() {
         else { $(this).addClass('btn-incorrect');
     }
 });
+
+    $('.answers-btn').click(function() {
+        if($(this).siblings().hasClass('false')) {
+            $(this).addClass('hide-element');
+        }
+    });
     
     // This function changes the background color of the submit button
     $('.submit-btn').click(function() {
