@@ -14,7 +14,6 @@ $(document).ready(function() {
 });
     
     $('.quiz-answers').click(function() {
-        console.log($(this));
         $(this).siblings('.quiz-answers').addClass('disabled');
     });
 

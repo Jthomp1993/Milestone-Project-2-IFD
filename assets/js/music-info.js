@@ -83,7 +83,7 @@ $(document).ready(function () {
         // This function hides the music info section until a user clicks on an album
         $('.hide-element').show();
 
-        if (this.hash !== "#music-table") {
+        if (this.hash !== "#tourist") {
             // Prevent default anchor click behavior
             event.preventDefault();
 
@@ -114,6 +114,7 @@ function getMusic(albumName, albumImage, tracklist, buyNow) {
 // https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
 // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
 // https://stackoverflow.com/questions/17746737/how-to-append-string-to-a-href-with-jquery-or-javascript
+// https://stackoverflow.com/questions/32772363/how-does-this-hash-work/32772416#32772416
 // Johann, Tim and Cormac from tutor assitance 
 
 
