@@ -3,24 +3,24 @@ View the live project <a href=""> here
 
 ***
 ## Contents
-* [What is the purpose of this project?]()
-* [User experience]()
-    * [User stories]()
-    * [Design]()
-        * [Font]()
-        * [Colours]()
-        * [Wireframes]()
-* [Technologies used]()
-* [Features]()
-    * [Existing features]()
-    * [Future features]()
-* [Testing]()
-* [Deployment]()
-    * [Cloning]()
-* [Credits]()
-* [Media]()
-* [Acknowledgements]()
-* [Special thanks]()
+* [What is the purpose of this project?](what-is-the-purpose-of-this-project?)
+* [User experience](#user-experience)
+    * [User stories](#user-stories)
+    * [Design](#design)
+        * [Font](#font)
+        * [Colours](#colours)
+        * [Wireframes](#wireframes)
+* [Technologies used](#technologies-used)
+* [Features](#features)
+    * [Existing features](#existing-features)
+    * [Future features](#future-features)
+* [Testing](#testing)
+* [Deployment](#deployment)
+    * [Cloning](#cloning)
+* [Credits](#credits)
+* [Media](#media)
+* [Acknowledgements](#acknowledgements)
+* [Special thanks](#special-thanks)
 ***
 
 ***
@@ -55,3 +55,34 @@ screen sizes including mobile, tablet and desktop. The JQuery framework was also
     * By giving the user the opportunity to contact the artist directly on the contact page. 
     * By providing an intuitive quiz where the user can have a go at answering some trivial questions about Tourist. 
     * By presenting all of Tourist’s music on the music page where the user is able to view the title, artwork and track list as well as being able to follow a link to purchase the music. 
+
+#### Design 
+
+##### Font 
+For this website I decided to only use one font to keep it simple and maintain consistency throughout. The font that I chose to use was Raleway which I imported into my style.css file from 
+Google Fonts. I made use of font weights in the design process to promote hierarchy among elements such as headings and make them stand out. I used Sans Serif as a fall back font should the Raleway font not be imported correctly. 
+
+##### Colours 
+For me it was really important that I chose a palette of colours that were not only pleasing to the eye but also worked together to ensure that content would stand out as clearly as possible maximising readability for the user. 
+
+Colours used: 
+
+* 176073 - Nav bar colour
+* 323232 - Background colour
+* 002D47 - Text colour 
+* FFFFFF - Text and icon colour 
+* 545454 - Footer colour 
+* 38C1E4 - Social media icons hover colour 
+
+The green colour (176073) was used for the navbar through every page of the website. I wanted to use quite a dark shade that would allow the white text for the logo and nav bar buttons to really stand out and be easy for the user to read.<br>
+The dark grey colour (323232) was used as  a background colour for various elements throughout the website. The dark shade of this colour really helps the content to stand out.<br> 
+The colour (002D47) is a dark shade of blue that I decided to use for my font colour for any text that was against a white background to make it stand out, this was mainly the headings.<br> 
+I used white (FFFFFF) for any text that was against the dark grey (323232) background so it would stand out nice and clearly for the user.<br> 
+The light blue colour (38C1E4) was used for the social media icons when the user hovers over them indicating that the button can be interacted with. 
+
+##### Wireframes 
+
+The first stage of the process to developing my website was creating my wireframes on Figma which enabled me to sketch out the design and bring my ideas to life.<br> 
+Having these wireframes really helped me with the development process as I had a detailed plan to follow. The final website was pretty much identical to the wireframes with just a few minor design changes. 
+
+[You can view the Figma wireframes project here](https://www.figma.com/file/lutlDKHHKEswS3FiS79B1s/Milestone-Project-2?node-id=0%3A1)
