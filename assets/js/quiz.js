@@ -35,7 +35,7 @@ $(document).ready(function() {
     // When the user clicks the try again button this function refreshes the page
     $('.refresh-button').click(function() {
         location.reload();
-        location = location.href
+        location = location.href;
     });
     
     // This function hides the results and try again button until the user clicks submit
@@ -44,7 +44,7 @@ $(document).ready(function() {
     });
     // This function provides the user with there results and a comment on how they did
     $('.submit-button').click(function() {
-        $('#total-score').text('You scored ' + score + ' out of 5')
+        $('#total-score').text('You scored ' + score + ' out of 5');
         if (score === 5) {
             $('#result-text').text('You must be a big fan of Tourist');
         }

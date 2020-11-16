@@ -4,8 +4,8 @@ window.onload = function () {
         event.preventDefault();
         emailjs.sendForm('gmail', 'contact_form', this);
     });
-}
+};
 
 $('#email-submit').click(function() {
     document.getElementById("contact-form").reset();
-})
+});

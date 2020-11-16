@@ -55,7 +55,7 @@ var musicData = [
         "tracklist": ["01. Placid Acid", "02. Forgive", "03. Jupiter", "04. Fires"],
         "buyNow": "https://music.apple.com/us/album/tourist-ep/1530703105"
     },
-]
+];
 
 $(document).ready(function () {
 
