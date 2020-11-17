@@ -118,3 +118,40 @@ Having these wireframes really helped me with the development process as I had a
 * [Google maps](https://www.google.co.uk/maps/) - This was used to get the coordinates of the music venues. 
 * [Google developers](https://developers.google.com/) - This was used to implement the Google Maps API. 
 
+## **Features**
+
+#### Existing features 
+
+* Navbar - Bootstrap was used to create the navbar which is featured across every page of the website. It has a nabber brand logo for Tourist and features links to all 
+  pages of the website. The nabber remains fixed at the top of the screen enabling the user to access all other pages at any moment they desire. On smaller screen sizes the nabber collapses into a hamburger menu.
+
+* Hero images - All pages feature a hero image at the top of the page which looks visually pleasing and helps draw in the users attention. 
+
+* Footer - The footer section is featured across every page on the website. This consists of links to all of Tourist’s social media pages which are represented by their icons which change colour when hovered over. 
+  The footer also has a button to take the user back to the top of page to improve navigation. 
+
+* Home page  - This page is the first place the user will find themselves after entering the website. It has a full width hero section at the top of the page displaying an image of Tourist, a bio section which 
+  informs the user who Tourist is, a news section where users will be able to keep up to date with the latest news and a tour dates section displaying the locations and dates of upcoming gigs and also giving the user the opportunity to buy tickets. 
+
+* Music page - This page allows the user to browse Tourists full discography of music and view the track list of any album or single by clicking on them. The user also has the opportunity to buy any of the music by clicking the buy now button which will 
+  take them to Apple Music where they may make a purchase if they wish. 
+
+* Live page - This page allows the user to view the dates and locations of all of Tourist’s upcoming gigs. I have implemented the Google maps API on this page which enables the user to view the location of each venue which is displayed on the map with a marker. 
+  The user is also presented with the opportunity to buy tickets for any of the gigs by clicking on buy tickets.
+
+* Contact page - This page gives the user the opportunity to get in touch with Tourist regarding bookings, remixes or any other general enquiries. EmailJS has been implemented on this feature allowing the user to send a direct email to the artist. 
+  Upon submitting their email the user will be presented with a modal informing them that their message has been sent and to let them know that Tourist will be in touch as soon as possible. 
+
+* Quiz page - This page gives users the opportunity to test their knowledge of Tourist. The quiz contains of 5 questions which each have a multiple choice selection of three answers. After submitting their answers the user will then be provided with the results 
+  and a message on how they have done. The user then has the option of clicking the try again button which refreshes the page. 
+
+#### Future releases
+
+* On the Live page I would like to add a feature where the user could enter their home address to find out the location of the nearest gig. 
+
+* On the music page I would like to implement the Soundcloud API so the user could listen to the songs. 
+
+* At the moment the news section just links to other news articles on the web but I would like to create my own articles in the future. 
+
+* In the future I would also like to add a shop section where users would be able to purchase music and merchandise. 
+
