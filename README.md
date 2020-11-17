@@ -163,6 +163,10 @@ Having these wireframes really helped me with the development process as I had a
 
 [Back to Top](#contents)
 
+## **Testing**
+
+The testing for this project can be found [here](https://github.com/Jthomp1993/Milestone-Project-1-UCFD/blob/master/testing.md)
+
 ## **Deployment** 
 
 #### Hosting the project on Github pages 
