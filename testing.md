@@ -47,4 +47,44 @@ Chromes Devtools was used extensively throughout the development process. Utilis
 
 * Throughout the process of writing my Javascript code I would regularly console.log to make sure things were working as expected and to catch any unexpected bugs. 
 
+## User stories from UX section 
+
+* User goals 
+
+    * As a user, I want to visit the website to keep up to date with the latest news about Tourist. 
+        * When the user arrives on the home page the user can scroll down to the news section where they will be able to keep up to date with all the latest news regarding Tourist.
+        * As a future release I would add my own news articles to a news page so the user would be able to access the news section from the navbar.  
+
+    * As a user, I want to find out the dates and locations of Tourist’s upcoming gigs and buy tickets. 
+        * When the user arrives on the website they will be able to select Live from the navbar. This will take them to the live page where they will be presented with a hero image that will encourage them to scroll down.
+        * The user will then be provided with the dates and locations of all upcoming gigs. 
+        * They will have the opportunity to buy tickets via the button provided and can view the location of the venue on the google map. 
+
+    * As a user, I want to find out where I can find and follow Tourist on social media. 
+        * It is common practice that social media links are added to the footer section of websites so people naturally tend to head to look there first.
+        * The footer section is featured on every page throughout the website giving the user the opportunity to see them at all times. 
+    
+    * As a user, I want to be able to easily navigate through the website and information to be provided in a clear and informative manner.
+        * As the navbar is fixed to the top of the screen the user will always have access to every page of the website.
+        * The page names a clearly written within the nav bar and this collapses into a hamburger menu for mobile users. 
+        * In the footer section there is a back to top button to enable the user to quickly navigate back to the top of the page. 
+        * The layout of the content in this website has been carefully designed to ensure no areas are overcrowded and the information architecture looks organised and professional. 
+
+    * As a user, I want to get in touch with Tourist to enquire about booking him to play a show at my venue. 
+        * When the user arrives at the website they can select contact from the navigation bar which will take them to the contact page. 
+        * Here the user will be presented with a hero image which will encourage them to scroll down where they will find the contact form. 
+        * Once here the user is able to give there details and send an email stating their interest in booking tourist for a gig.
+        * Upon submitting their email the user will be presented with a modal informing them that their message has been sent and Tourist will be in touch with them as soon as possible.
+
+    * As a user, I want to test my knowledge of my favourite musician. 
+        * When the user arrives at the website they will be able to select quiz from the navigation bar which will take them to the quiz. 
+        * The user will then be presented with a hero image which will encourage them to scroll down to where the will find the quiz. 
+        * The user will then be taken through a series of multiple choice questions and upon submitting their answers the will be provided with their results and feedback on how they did.
+        * Then if the user wishes they are able to click the try again button which refreshes the page so they can have another go. 
+
+    * As a user, I want to browse through Tourist’s catalogue of music and buy an album. 
+        * When the user arrives at the website they will be able to select music from the navigation bar which will take them to the music page. 
+        * Here the user will be presented with a hero image which will encourage them to scroll down to where they will find Tourist music discography. 
+        * From here the user is able to click on any music they wish which will provide them with the track list and a buy now button which enables them to buy the music from apple music. 
+
 
