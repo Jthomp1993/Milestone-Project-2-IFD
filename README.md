@@ -67,12 +67,12 @@ For me it was really important that I chose a palette of colours that were not o
 
 Colours used: 
 
-* 176073 - Nav bar colour (Blumine)
-* 323232 - Background colour (Mine shaft grey)
-* 002D47 - Text colour (Prussian Blue)
-* FFFFFF - Text and icon colour (White)
-* 545454 - Footer colour (Emperor grey)
-* 38C1E4 - Social media icons hover colour (Picton blue)
+* ![#176073](https://placehold.it/15/176073/000000?text=+) #176073 - Nav bar colour (Blumine)
+* ![#323232](https://placehold.it/15/323232/000000?text=+) #323232 - Background colour (Mine shaft grey)
+* ![#002D47](https://placehold.it/15/002D47/000000?text=+) #002D47 - Text colour (Prussian Blue)
+* ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF - Text and icon colour (White)
+* ![#545454](https://placehold.it/15/545454/000000?text=+) #545454 - Footer colour (Emperor grey)
+* ![#38C1E4](https://placehold.it/15/38C1E4/000000?text=+) #38C1E4 - Social media icons hover colour (Picton blue)
 
 The green colour (176073) was used for the navbar through every page of the website. I wanted to use quite a dark shade that would allow the white text for the logo and nav bar buttons to really stand out and be easy for the user to read.<br>
 The dark grey colour (323232) was used as  a background colour for various elements throughout the website. The dark shade of this colour really helps the content to stand out.<br> 
@@ -86,3 +86,29 @@ The first stage of the process to developing my website was creating my wirefram
 Having these wireframes really helped me with the development process as I had a detailed plan to follow. The final website was pretty much identical to the wireframes with just a few minor design changes. 
 
 [You can view the Figma wireframes project here](https://www.figma.com/file/lutlDKHHKEswS3FiS79B1s/Milestone-Project-2?node-id=0%3A1)
+
+## **Technologies used**
+
+#### Languages 
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - This language was used to build the core structure of the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - This language was used to style the HTML5 elements.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This language was used to provide interactive functionality
+
+#### Libraries, frameworks and editors
+
+* [Boostrap](https://getbootstrap.com/) - The bootstrap grid system was used extensively throughout my website to create the structure and ensure responsiveness across all screen sizes. I also made use of the bootstrap CSS framework for various elements throughout the website. 
+* [EmailJS](https://www.emailjs.com/) - EmailJS was used to enable the user to send an email from the contact page. 
+* [Font Awesome](https://fontawesome.com/) - This was used to import the arrow symbol use on the buy tickets link on the Live page. 
+* [Github](https://github.com/) - This was used to store the repository for my website and host it on Github pages.
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) - Throughout the development of my website I made use of Git version control to ensure all changes and additions to my code were added to the repository. 
+* [Gitpod](https://gitpod.io/) - This was used to write all code for the website. 
+* [JQuery](https://jquery.com/) - I used JQuery to write some of the Javascript code for the website. 
+* [Google images](https://www.google.com/imghp?hl=EN) - This was used to find all of the images for the website. 
+
+#### Tools 
+
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - This was used to resize images.
+* [Am I Responsive](http://ami.responsivedesign.is/) - This was used to show how my website is responsive across all screen sizes. 
+
+
