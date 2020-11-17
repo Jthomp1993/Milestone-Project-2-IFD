@@ -515,6 +515,7 @@
 	width: 300px;
 	margin-top: 5px;
 	border: none;
+    
 }
 
 .results-answer h3 {
@@ -547,10 +548,10 @@
 	border: none;
 	float: none;
 }
-
+/*
 .quiz-answers p:hover {
 	background-color: rgb(190, 190, 190);
-}  
+}  */
 
 .submit-button p:hover {
 	background-color: rgb(190, 190, 190);

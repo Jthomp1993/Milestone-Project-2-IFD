@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('.answers-btn').click(function () {
         if ($(this).hasClass('true')) {
             $(this).addClass('btn-correct');
+            $(this).removeClass('btn-light');
         } else {
             $(this).addClass('btn-incorrect');
         }
