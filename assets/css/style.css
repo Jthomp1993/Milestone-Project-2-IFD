@@ -80,10 +80,13 @@
 
 /*------------------------------ News section  */
 
+.tourist-heading {
+    width: 90vw;
+}
+
 .tourist-heading h2 {
 	margin-top: 1rem;
 	margin-left: 1rem;
-	;
 	padding-left: 5px;
 	font-family: "raleway", sans-serif;
 	font-size: 48px;
@@ -494,7 +497,7 @@
 	height: 30rem;
 	background-color: #323232;
 	margin-bottom: 4rem;
-	box-shadow: 20px 30px 40px rgb(141, 141, 141);
+	box-shadow: 20px 30px 40px rgb(141, 141, 141); 
 }
 
 .quiz-heading h3 {
