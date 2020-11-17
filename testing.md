@@ -46,6 +46,9 @@ Chromes Devtools was used extensively throughout the development process. Utilis
 
 * Dev tools really helped me to figure out the layout of the music section and how the albums would display across different screen sizes by using the bootstrap grid system. 
 
+* I came across a bug whilst viewing my website on mobile devices in devtools where something was causing there to be a margin of empty space off the screen on the right hand side. 
+  By using Devtools I was able to identify the element that was causing this which was the heading. It was spanning more than the width of the screen and I fixed this by adjusting the width.
+
 * Throughout the process of writing my Javascript code I would regularly console.log to make sure things were working as expected and to catch any unexpected bugs. 
 
 ## User stories from UX section 
