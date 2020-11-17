@@ -67,12 +67,12 @@ For me it was really important that I chose a palette of colours that were not o
 
 Colours used: 
 
-* 176073 - Nav bar colour
-* 323232 - Background colour
-* 002D47 - Text colour 
-* FFFFFF - Text and icon colour 
-* 545454 - Footer colour 
-* 38C1E4 - Social media icons hover colour 
+* 176073 - Nav bar colour (Blumine)
+* 323232 - Background colour (Mine shaft grey)
+* 002D47 - Text colour (Prussian Blue)
+* FFFFFF - Text and icon colour (White)
+* 545454 - Footer colour (Emperor grey)
+* 38C1E4 - Social media icons hover colour (Picton blue)
 
 The green colour (176073) was used for the navbar through every page of the website. I wanted to use quite a dark shade that would allow the white text for the logo and nav bar buttons to really stand out and be easy for the user to read.<br>
 The dark grey colour (323232) was used as  a background colour for various elements throughout the website. The dark shade of this colour really helps the content to stand out.<br> 
