@@ -110,5 +110,11 @@ Having these wireframes really helped me with the development process as I had a
 
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - This was used to resize images.
 * [Am I Responsive](http://ami.responsivedesign.is/) - This was used to show how my website is responsive across all screen sizes. 
-
+* [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - This was used to format my HTML code to improve readability. 
+* [Free Online CSS Formatter](https://www.freeformatter.com/css-beautifier.html) - This was used to format my CSS code to improve readability.
+* [Free Online JavaScript Formatter](https://www.freeformatter.com/javascript-beautifier.html) - This was used to format my Javascript code to improve readability.
+* [Figma](https://www.figma.com/) - This was used to create the wireframes. 
+* [Google](https://www.google.com/) - Google was used extensively throughout the design and development process for images, researching solutions to coding issues and information to use in my website. 
+* [Google maps](https://www.google.co.uk/maps/) - This was used to get the coordinates of the music venues. 
+* [Google developers](https://developers.google.com/) - This was used to implement the Google Maps API. 
 
