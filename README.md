@@ -87,6 +87,8 @@ Having these wireframes really helped me with the development process as I had a
 
 [You can view the Figma wireframes project here](https://www.figma.com/file/lutlDKHHKEswS3FiS79B1s/Milestone-Project-2?node-id=0%3A1)
 
+[Back to Top](#contents)
+
 ## **Technologies used**
 
 #### Languages 
@@ -118,12 +120,14 @@ Having these wireframes really helped me with the development process as I had a
 * [Google maps](https://www.google.co.uk/maps/) - This was used to get the coordinates of the music venues. 
 * [Google developers](https://developers.google.com/) - This was used to implement the Google Maps API. 
 
+[Back to Top](#contents)
+
 ## **Features**
 
 #### Existing features 
 
-* Navbar - Bootstrap was used to create the navbar which is featured across every page of the website. It has a nabber brand logo for Tourist and features links to all 
-  pages of the website. The nabber remains fixed at the top of the screen enabling the user to access all other pages at any moment they desire. On smaller screen sizes the nabber collapses into a hamburger menu.
+* Navbar - Bootstrap was used to create the navbar which is featured across every page of the website. It has a navbar brand logo for Tourist and features links to all 
+  pages of the website. The navbar remains fixed at the top of the screen enabling the user to access all other pages at any moment they desire. On smaller screen sizes the navbar collapses into a hamburger menu.
 
 * Hero images - All pages feature a hero image at the top of the page which looks visually pleasing and helps draw in the users attention. 
 
@@ -151,7 +155,39 @@ Having these wireframes really helped me with the development process as I had a
 
 * On the music page I would like to implement the Soundcloud API so the user could listen to the songs. 
 
-* At the moment the news section just links to other news articles on the web but I would like to create my own articles in the future. 
+* At the moment the news section is just links to other news articles on the web but I would like to create my own articles in the future. 
 
 * In the future I would also like to add a shop section where users would be able to purchase music and merchandise. 
+
+[Back to Top](#contents)
+
+## **Deployment** 
+
+#### Hosting the project on Github pages 
+
+* Firstly you want to log into your Github account and open the repository that you are wanting to host on Github pages. 
+
+* Then you need to go to the settings tab and click on that 
+
+* You then need to scroll down and locate the Source section within the Github pages section. 
+
+* From the dropdown menu you then need to click on ‘Master branch’ and then click save.  
+
+* Now your repository is hosted on Github pages it can be viewed at http://<username>.github.io<repository-name>.
+
+#### Cloning 
+
+If you would like to deploy your own version of my project and develop it even further use the following steps:
+
+* Visit my repository on ‘Github pages’
+
+* Click on the green code and download button and then copy the http link which is provided
+
+* Open the terminal within your chosen IDE
+
+* Using the terminal change your root directory to the location where you would like the cloned directory to be stored.
+
+* Then you need to enter git clone into the terminal followed by the http link that you copied earlier. 
+
+* Now all you need to do is press enter and doing so will create your local clone which you can work on yourself. 
 
