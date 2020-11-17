@@ -1,5 +1,5 @@
 # Milestone project 2 - Tourist 
-View the live project <a href=""> here
+View the live project <a href="https://github.com/Jthomp1993/Milestone-Project-2-IFD"> here
 
 ***
 ## Contents
@@ -178,7 +178,7 @@ The testing for this project can be found [here](https://github.com/Jthomp1993/M
 
 * From the dropdown menu you then need to click on ‘Master branch’ and then click save.  
 
-* Now your repository is hosted on Github pages it can be viewed at http://<username>.github.io<repository-name>.
+* Now your repository is hosted on Github pages it can be viewed at http://-username-.github.io-repository-name-.
 
 #### Cloning 
 
