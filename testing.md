@@ -7,6 +7,7 @@
 * [Google chrome develeoper tools](#google-chrome-developer-tools)
 * [User stories from UX section](#user-stories-from-ux-section)
     * [User goals](#user-goals) 
+* [Testing EmailJS](#emailjs)
 * [Browser compatibility](browser-compatibility)
 * [Testing the functionality of all links](#testing-the-functionality-of-all-links)
 ***
@@ -94,4 +95,16 @@ I did some testing to ensure that my website was compatible with the following b
 * [Google chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=Cj0KCQiAhs79BRD0ARIsAC6XpaXtnVdUu9Wvwx0hOb8w-DRPsxzQPpxNQviJm4RW6xn8j_s3EeQOskAaAj3JEALw_wcB&gclsrc=aw.ds)
 * [Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
 * [Safari](https://www.apple.com/uk/safari/)
+
+## Testing the functionality of all links 
+
+I carried out the following tests to ensure all links were working properly: 
+
+* I clicked on each news article on the home page to make sure it opened the correct link and opened in a new window.
+
+* I clicked on each album on the music page to make sure it provided the correct information for that album and clicked the buy now link to make sure it was the correct link and opened in a new window. 
+
+* I clicked on each buy tickets anchor in the live page to make sure it was the correct link and opened in a new window. 
+
+[Back to top](#contents)
 
