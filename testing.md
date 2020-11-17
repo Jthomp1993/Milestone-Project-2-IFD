@@ -96,6 +96,17 @@ I did some testing to ensure that my website was compatible with the following b
 * [Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
 * [Safari](https://www.apple.com/uk/safari/)
 
+## Testing EmailJS 
+
+Due to this website being deveopled for my milestone project and not an actual website for Tourist, to test the functionality of the EmailJS I just set it up so I could recieve the emails to my own personal email. 
+Below are some screen shots which show my process of testing the EmailJS to ensure it was functioning correctly. 
+
+<div style="text-align:center"><img src="assets/images/testing/email.png" alt="Email ready to be sent to Tourist"></div>
+
+<div style="text-align:center"><img src="assets/images/testing/email-submitted.png" alt="Message informing user their email has been sent"></div>
+
+<div style="text-align:center"><img src="assets/images/testing/email-screenshot.png" alt="Screenshot of the email recieved in Gmail"></div>
+
 ## Testing the functionality of all links 
 
 I carried out the following tests to ensure all links were working properly: 
