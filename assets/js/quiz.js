@@ -11,6 +11,7 @@ $(document).ready(function () {
             $(this).removeClass('btn-light');
         } else {
             $(this).addClass('btn-incorrect');
+            $(this).removeClass('btn-light');
         }
     });
 

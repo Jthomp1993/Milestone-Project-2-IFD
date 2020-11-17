@@ -511,11 +511,15 @@
 	text-align: center;
 }
 
-.quiz-answers p {
+.quiz-answers button {
 	width: 300px;
-	margin-top: 5px;
-	border: none;
-    
+	margin-top: 1rem;
+	border: none; 
+}
+
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .results-answer h3 {
@@ -536,13 +540,13 @@
 	color: #ffffff;
 }
 
-.submit-button p {
+.submit-button button {
 	width: 300px;
 	margin-top: 4rem;
 	border: none;
 }
 
-.refresh-button p {
+.refresh-button button {
 	width: 300px;
 	margin-top: 4rem;
 	border: none;
