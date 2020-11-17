@@ -56,3 +56,6 @@ $(document).ready(function () {
 
 
 });
+
+// Sources of guidance used 
+// https://github.com/mkthewlis/Milestone-Project-2

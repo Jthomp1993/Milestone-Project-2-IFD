@@ -56,8 +56,7 @@ var musicData = [{
 ];
 
 $(document).ready(function () {
-
-    // Add smooth scrolling to all links
+    // This function occurs when the DOM has been loaded
     $(".music-btn").on('click', function (event) {
 
         // get the ID of this

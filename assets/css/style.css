@@ -239,6 +239,10 @@
 	margin-bottom: 1rem;
 }
 
+.music-catalogue a {
+    text-decoration-color: #002D47;
+}
+
 @media (max-width: 575.98px) {
 	.music-catalogue img {
 		width: 120px;
@@ -257,7 +261,6 @@
 
 
 /*------------------------------ Live section  */
-
 
 .live-event-table {
 	background-color: #323232;
@@ -309,8 +312,8 @@
 
 @media (max-width: 767.98px) {
 	.maps-api {
-		width: 150px;
-		height: 150px;
+		width: 130px;
+		height: 130px;
 		background-color: #ffffff;
 		float: right;
 		margin-right: 2px;
@@ -335,6 +338,7 @@
 		font-weight: 400;
 		margin-top: 6rem;
 	}
+    
 }
 
 @media (max-width: 1024px) {

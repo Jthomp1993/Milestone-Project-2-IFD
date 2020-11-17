@@ -6,7 +6,3 @@ window.onload = function () {
         this.reset()
     });
 };
-
- /* $('#email-submit').click(function () {
-    document.getElementById("contact-form").reset();
-});  */
