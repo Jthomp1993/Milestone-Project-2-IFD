@@ -52,6 +52,10 @@ Chromes Devtools was used extensively throughout the development process. Utilis
 
 * Throughout the process of writing my Javascript code I would regularly console.log to make sure things were working as expected and to catch any unexpected bugs. 
 
+* I came accross a bug in my quiz section which was when a button was clicked the class that was being added by javascript to inform the user if the answer was correct or incorrect wouldn't work 
+  until the mouse had left the button. After trying methods to fix this I resolved it by adding a remove class statement in my javascript to remove the bootstrap class when the button was clicked. 
+  After doing so it worked correctly. 
+
 ## User stories from UX section 
 
 * User goals 

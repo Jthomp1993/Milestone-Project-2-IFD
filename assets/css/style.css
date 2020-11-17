@@ -552,10 +552,6 @@
 	border: none;
 	float: none;
 }
-/*
-.quiz-answers p:hover {
-	background-color: rgb(190, 190, 190);
-}  */
 
 .submit-button p:hover {
 	background-color: rgb(190, 190, 190);
