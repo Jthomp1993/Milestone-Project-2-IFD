@@ -87,4 +87,11 @@ Chromes Devtools was used extensively throughout the development process. Utilis
         * Here the user will be presented with a hero image which will encourage them to scroll down to where they will find Tourist music discography. 
         * From here the user is able to click on any music they wish which will provide them with the track list and a buy now button which enables them to buy the music from apple music. 
 
+## Browser compatibility
+
+I did some testing to ensure that my website was compatible with the following browsers and I also made sure that the website was responsive across all screen sizes on each browser. 
+
+* [Google chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=Cj0KCQiAhs79BRD0ARIsAC6XpaXtnVdUu9Wvwx0hOb8w-DRPsxzQPpxNQviJm4RW6xn8j_s3EeQOskAaAj3JEALw_wcB&gclsrc=aw.ds)
+* [Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
+* [Safari](https://www.apple.com/uk/safari/)
 
