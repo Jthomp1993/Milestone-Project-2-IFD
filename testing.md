@@ -9,6 +9,7 @@
     * [User goals](#user-goals) 
 * [Testing EmailJS](#emailjs)
 * [Browser compatibility](browser-compatibility)
+* [Testing EmailJS](#testing-email-js)
 * [Testing the functionality of all links](#testing-the-functionality-of-all-links)
 ***
 
