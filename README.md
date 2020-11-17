@@ -13,12 +13,11 @@ View the live project <a href=""> here
 * [Technologies used](#technologies-used)
 * [Features](#features)
     * [Existing features](#existing-features)
-    * [Future features](#future-features)
+    * [Future releases](#future-releases)
 * [Testing](#testing)
 * [Deployment](#deployment)
     * [Cloning](#cloning)
 * [Credits](#credits)
-* [Media](#media)
 * [Acknowledgements](#acknowledgements)
 * [Special thanks](#special-thanks)
 ***
@@ -165,7 +164,7 @@ Having these wireframes really helped me with the development process as I had a
 
 ## **Testing**
 
-The testing for this project can be found [here](https://github.com/Jthomp1993/Milestone-Project-1-UCFD/blob/master/testing.md)
+The testing for this project can be found [here](https://github.com/Jthomp1993/Milestone-Project-2-IFD/blob/master/testing.md)
 
 ## **Deployment** 
 
