@@ -6,6 +6,6 @@ window.onload = function () {
     });
 };
 
-$('#email-submit').click(function() {
+$('#email-submit').click(function () {
     document.getElementById("contact-form").reset();
 });

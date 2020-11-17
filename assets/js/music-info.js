@@ -1,7 +1,5 @@
-
 // Objects which contain the data for all music which is stored in variable musicData
-var musicData = [
-    {
+var musicData = [{
         "albumName": "Wild",
         "albumImage": "assets/images/music-artwork/wild.png",
         "tracklist": ["01. And So, You Were!", "02. Elixir", "03. Bunny", "04. So", "05. Fiction", "06. Still Life", "07. Wild", "08. 11.12", "09. Kin", "10. Together At The Centre Of Creation"],
@@ -60,15 +58,15 @@ var musicData = [
 $(document).ready(function () {
 
     // Add smooth scrolling to all links
-    $(".music-btn").on('click', function(event) {
+    $(".music-btn").on('click', function (event) {
 
         // get the ID of this
         let thisAlbumId = $(this).attr("id").replace("-", " ");
-        
+
         // helper function search the 'musicData' array
         // modified from: https://stackoverflow.com/a/12462387
-        function searchData(key, albumArray){
-            for (var i=0; i < albumArray.length; i++) {
+        function searchData(key, albumArray) {
+            for (var i = 0; i < albumArray.length; i++) {
                 // compare the ID being clicked with the musicData value, both toLowerCase()
                 if (albumArray[i].albumName.toLowerCase() === key.toLowerCase()) {
                     return albumArray[i];
@@ -91,9 +89,9 @@ $(document).ready(function () {
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 2000, function() {
+            }, 2000, function () {
                 window.location.hash = hash;
-            }); 
+            });
         }
     });
 });
@@ -115,7 +113,7 @@ function getMusic(albumName, albumImage, tracklist, buyNow) {
 // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
 // https://stackoverflow.com/questions/17746737/how-to-append-string-to-a-href-with-jquery-or-javascript
 // https://stackoverflow.com/questions/32772363/how-does-this-hash-work/32772416#32772416
-// Johann, Tim and Cormac from tutor assitance 
+// Johann, Tim and Cormac from tutor assitance
 
 
 
