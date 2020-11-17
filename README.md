@@ -119,6 +119,8 @@ Having these wireframes really helped me with the development process as I had a
 * [Google](https://www.google.com/) - Google was used extensively throughout the design and development process for images, researching solutions to coding issues and information to use in my website. 
 * [Google maps](https://www.google.co.uk/maps/) - This was used to get the coordinates of the music venues. 
 * [Google developers](https://developers.google.com/) - This was used to implement the Google Maps API. 
+* [Name that colour](https://chir.ag/projects/name-that-color/#38C1E4) - This was used to get the names of the colours I used. 
+* [Place hold it](https://place-hold.it/) - This was used for the colour placeholders in README.
 
 [Back to Top](#contents)
 
@@ -190,4 +192,58 @@ If you would like to deploy your own version of my project and develop it even f
 * Then you need to enter git clone into the terminal followed by the http link that you copied earlier. 
 
 * Now all you need to do is press enter and doing so will create your local clone which you can work on yourself. 
+
+[Back to Top](#contents)
+
+## **Credits**
+
+#### Content
+
+The bio section on the home page was taken from Tourist’s Wikipedia page, all other content on the website was written by myself. 
+
+#### Code 
+
+* The bootstrap CSS library was used extensively to help me create an intuitive and fully responsive website.
+
+* Inspiration for the layout of the news section on the home page and the music section were taken from my first [milestone project](https://github.com/Jthomp1993/Milestone-Project-1-UCFD).
+
+* For the Google maps API I used the documentation to help me understand how to correctly implement it and I also received some additional guidance from tutor support after struggling to get the map to render correctly. 
+
+* For the implementation of EmailJS in my contact page I used documentation provided on their website. I was later advised by Kevin from tutor assistance to use the new EmailJS method rather than the old method that I was using. 
+
+* I used this [repository](https://github.com/mkthewlis/Milestone-Project-2) that my mentor sent me for inspiration on how to write the code for my quiz.
+
+* For the Javascript code for my music page I had originally created a function for each individual album but Tim from tutor assistance helped me simplify it by just using one function for all of them. 
+
+* For inspiration on how to structure my README file I used this [repository](https://github.com/Gregory4321/milestone-project-2#design) that was sent to me by my mentor.  
+
+## **Acknowledgements**
+
+* [Code institute](https://codeinstitute.net/)
+
+* [W3schools](https://www.w3schools.com/)
+
+* [Geeks for geeks](https://www.geeksforgeeks.org/) 
+
+* [Stack overflow](https://stackoverflow.com/)
+
+* [Slack](https://slack.com/intl/en-gb/)
+
+* [Tourist](http://www.touristmusic.com/)
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Tourist_(musician))
+
+## **Special thanks**
+
+* My mentor Seun Owonikoko, for all of the support and guidance that she has given me throughout my milestone 2 project. 
+
+* Tutor assistance for answering any questions I had and providing guidance on how to tackle any issues I was having. 
+
+[Back to Top](#contents)
+
+
+
+
+
+
 
