@@ -1,5 +1,5 @@
 # Milestone project 2 - Tourist 
-View the live project <a href="https://github.com/Jthomp1993/Milestone-Project-2-IFD"> here
+View the live project <a href="https://jthomp1993.github.io/Milestone-Project-2-IFD/"> here
 
 ***
 ## Contents
